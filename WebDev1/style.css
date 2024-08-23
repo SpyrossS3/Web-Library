@@ -9,17 +9,46 @@ body {
     background-color: #e6dede;
 }
 
+.title {
+    background-color: #443030;
+    color: #e6dede;
+    width: 100%;
+    position: fixed;
+    padding: 0.5% 0% 0.5% 2%;
+    text-align: left;
+    letter-spacing: 0.5rem;
+    font-size: 2em;
+    border-bottom: 1vh solid #514945;
+}
+
+.title>a:visited, .title>a:hover {
+    color: inherit;
+}
+
+.banner {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
 .menubar {
     background-color: #443030;
     width: 100%;
     position: fixed;
+    padding: 0.5% 0% 0.5% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1vh solid #514945;
 }
 
 .menubtn {
     color: #fff07f;
-    padding: 2%, 0;
+    padding: 0.5% 1%;
+    font-size: 1.05em;
 }
 
 .menubtn:hover {
     background-color: #4f4b64;
+    color: #e6dede;
 }
