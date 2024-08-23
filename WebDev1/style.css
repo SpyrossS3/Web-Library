@@ -34,7 +34,6 @@ body {
 .menubar {
     background-color: #443030;
     width: 100%;
-    position: fixed;
     padding: 0.5% 0% 0.5% 0%;
     display: flex;
     justify-content: center;
