@@ -15,14 +15,28 @@ body {
     width: 100%;
     position: fixed;
     padding: 0.5% 0% 0.5% 2%;
+    border-bottom: 1vh solid #514945;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.title>a {
     text-align: left;
     letter-spacing: 0.5rem;
     font-size: 2em;
-    border-bottom: 1vh solid #514945;
 }
 
 .title>a:visited, .title>a:hover {
     color: inherit;
+}
+
+.titlebtns {
+    text-align: right;
+    justify-content: center;
+    align-items: right;
+    margin-right: 1%;
+    flex: 20%;
 }
 
 .banner {
